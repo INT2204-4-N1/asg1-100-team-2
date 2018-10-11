@@ -1,5 +1,4 @@
 
-package dictionary;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +11,7 @@ import com.sun.speech.freetts.VoiceManager;
  *
  * @author HP
  */
-public class base_dictionary {
+class base_dictionary {
     //khởi tạo mảng lưu trữ danh sách từ và nghĩa
     TreeMap<String,String> Words;
     /**
